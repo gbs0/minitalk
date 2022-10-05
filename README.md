@@ -1,8 +1,3 @@
-# 42cursus - minitalk
-
-![](https://github.com/hanshazairi/42-minitalk/workflows/norminette/badge.svg)
-![](https://github.com/hanshazairi/42-minitalk/workflows/build/badge.svg)
-![](https://img.shields.io/tokei/lines/github/hanshazairi/42-minitalk?style=plastic?color=blue)
 
 ## Project Information
 
@@ -38,5 +33,11 @@ The purpose of this project is to code a small data exchange program using *UNIX
 
 ## Compilation
 
-1. Clone repo including [`libft`](../../../42-libft) submodule via `git clone https://github.com/gbs0/minitalk.git`.
-2. Compile files into `server` & `client` executables via `make -C 42-minitalk`.
+1. Clone this repo
+2. Compile files with `make`.
+3. Add execution permission running `chmod +x ./server && chmod +x ./client`
+
+## Execute
+1. First, run the server `./server`
+2. Then, send a message using `./client <PID_OUTPUT> 'Your Message123456789@#$%^&*'` 
+

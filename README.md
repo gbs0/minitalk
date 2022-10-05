@@ -1,5 +1,5 @@
 
-## Project Information
+## Minitalk - Chat using only **UNIX** sig functions
 
 ### About
 

@@ -6,14 +6,11 @@
 /*   By: gschiavo <gschiavo@42student.org.br>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/23 06:09:42 by gschiavo          #+#    #+#             */
-/*   Updated: 2022/10/03 16:10:42 by gschiavo         ###   ########.fr       */
+/*   Updated: 2022/10/07 12:39:24 by gschiavo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <signal.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include "libft/libft.h"
+#include "minitalk.h"
 
 static void	action(int sig)
 {

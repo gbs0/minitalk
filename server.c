@@ -6,20 +6,11 @@
 /*   By: gschiavo <gschiavo@42student.org.br>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/23 06:09:42 by gschiavo          #+#    #+#             */
-/*   Updated: 2022/10/07 13:12:32 by gschiavo         ###   ########.fr       */
+/*   Updated: 2022/10/13 11:07:11 by gschiavo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "minitalk.h"
-extern pid_t	*server_pid;
-
-// Resets the global variable (25 line problem)
-// static void	ft_del_global(void)
-// {
-// 	free(g_client);
-// 	g_client = NULL;
-// }
-
 
 static void	action(int sig, siginfo_t *info, void *context)
 {
